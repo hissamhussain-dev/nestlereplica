@@ -3,6 +3,11 @@
     --secondary-font : 'Gotham Rounded A','Gotham Rounded B',sans-serif;
 }
 
+body
+{
+    margin:0;
+    padding: 0;
+}
 
 .border
 {
@@ -346,4 +351,156 @@
     font-weight: 300;
     line-height: 1.5;
 
+}
+
+
+/* browse section */
+
+.browse-section
+{
+    width: 85%;
+    height: 40rem;
+    color: white;
+    background-color: #4c85c0;
+    margin: 0px 7.5% 5% 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    align-items: center;
+}
+
+.browse-section-heading
+{
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 4;
+}
+
+.browse-section-content
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box
+{
+    width: 20%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img
+{
+    width: 40%;
+    height: 30%;
+
+}
+
+.box-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.box h5
+{
+    font-size: 1.3rem;
+    font-weight: 100;
+    letter-spacing: 1;
+
+}
+
+.box p 
+{
+    margin-top: -10px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.box a 
+{
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 1;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* footer */
+
+
+.footer
+{
+    width: 100%;
+    height: 15rem;
+    color: white;
+    background-image: url(images/footerimg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-content
+{
+    width: 40%;
+    height: 50%;
+    margin: 3rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-contact
+{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+
+}
+
+.footer-contact-p
+{
+    width: 40%;
+    height: 1.7rem;
+    /* border: 1px solid black; */
+    
+}
+
+.footer-find
+{
+    width: 30%;
+    height: 50%;
+}
+
+.footer-find-icons
+{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 80%;
+    
+}
+
+.footer-copyright
+{
+    width: 70%;
+    height: 10%;
+    font-size: 1.1rem;
+    margin-left: 8rem;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
