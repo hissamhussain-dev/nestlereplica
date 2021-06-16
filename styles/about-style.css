@@ -67,12 +67,12 @@ body
 .main-img
 {
     width: 98%;
-    height: 50rem;
+    height: 36rem;
     margin: 0px 1%;
     margin-top: -1rem;
     background-image: url(../images/family.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .main-img-content
@@ -115,7 +115,7 @@ body
 {
     width: 80%;
     margin:0px 5%;
-    margin-top: -14rem;
+    /* margin-top: -14rem; */
     font-size: 0.60rem;
     font-weight: 0;
     text-transform: uppercase;
