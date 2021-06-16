@@ -70,7 +70,7 @@ nav ul li:nth-child(2)
 
 }
 .pg1{
-    background-image: url(images/Capture10.PNG);
+    background-image: url(../images/Capture10.PNG);
 }
 .pg1-1{
     display: flex;
@@ -180,7 +180,7 @@ font-size: 1.2rem;
 
 .pg3{
     margin-top: -1rem;
-    background-image: url(images/Capture4.PNG);
+    background-image: url(../images/Capture4.PNG);
     background-size: cover;
     height:40rem;
     width:100%;
@@ -383,7 +383,7 @@ font-size: 1.2rem;
  
  .pg7{
     margin-top: -1rem;
-    background-image: url(images/Capture9.PNG);
+    background-image: url(../images/Capture9.PNG);
     background-size:cover;
     height:40rem;
     width:59rem;
@@ -442,7 +442,7 @@ margin-left:-30rem ;
     }
 
 footer{
-    background-image: url(images/footerimg.PNG);
+    background-image: url(../images/footerimg.png);
     display: grid;
     color: cornsilk;
     font-size: small;
